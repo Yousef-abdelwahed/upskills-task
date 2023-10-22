@@ -1,0 +1,23 @@
+/** @format */
+
+.section-title .title span {
+  color: var(--main-color);
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 0rem;
+  // padding-top: 3rem;
+  text-transform: uppercase;
+
+  h1 {
+    font-weight: 800;
+    font-size: 5vw;
+  }
+}
+.title-white {
+  color: white !important;
+}
+.title-main {
+  color: var(--main-color);
+}

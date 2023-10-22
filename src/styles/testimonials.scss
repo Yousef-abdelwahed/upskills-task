@@ -1,0 +1,38 @@
+/** @format */
+
+.testy-section {
+  background-color: var(--main-color);
+  padding: 2rem;
+  transition: 0.5s;
+  .title {
+    color: white;
+  }
+}
+.testy-card {
+  background-color: white;
+  border-radius: 1.2rem;
+  width: 32rem;
+  // height: 12rem;
+  .testy-content {
+    padding: 1rem;
+    // max-width: 32rem;
+    // max-height: 12rem;
+    p {
+      text-align: left;
+      font-size: 1.1vw;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.25rem;
+    }
+  }
+  .testy-stars {
+    color: var(--main-color);
+    text-align: left;
+    letter-spacing: 1px;
+  }
+}
+@media (max-width: 768px) {
+  .testy-content p {
+    font-size: 2.5vw !important;
+  }
+}

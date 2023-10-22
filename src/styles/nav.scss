@@ -1,0 +1,45 @@
+/** @format */
+$mediaMaxWidth: 1260px;
+$mediaBp1Width: 960px;
+$mediaMinWidth: 480px;
+.nav {
+  background-color: red;
+}
+.nav-section {
+  background-color: var(--main-color) !important;
+  width: 63vw;
+
+  border: none;
+  outline: none;
+}
+.nav-link {
+}
+@media (min-width: 1260px) and (min-width: 768px) {
+  .nav-section {
+    max-width: 55.5vw;
+  }
+  .second-section {
+    max-width: 29vw;
+  }
+  .telephone {
+    max-width: 32.7vw;
+  }
+  .col-md-6 {
+    max-width: 25vw;
+  }
+}
+@media (min-width: $mediaBp1Width) {
+  .nav-section {
+    // width: 48.4vw;
+  }
+}
+@media (min-width: 768px) {
+  .telephone {
+    width: 50vw !important;
+  }
+}
+@media (min-width: $mediaMinWidth) {
+  .nav-section {
+    // width: 48.4vw;
+  }
+}
